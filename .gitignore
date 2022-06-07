@@ -9,4 +9,6 @@ dist
 *.swp
 *.swo
 tags
+tags.temp
+tags.lock
 
