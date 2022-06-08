@@ -1,7 +1,5 @@
 <template>
   <div>
-    <LazyFormPhoneNumber />
-    <LazyFormChatMessage />
-    <linkGenerateUrl />
+    <NuxtPage />
   </div>
 </template>
