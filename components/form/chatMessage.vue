@@ -1,8 +1,9 @@
 <template>
   <FormKit
+    name="message"
     type="textarea"
     label="Messages"
-    validation-visibility="live"
+    validation-visibility="blur"
     validation="required|string"
     :validation-messages="{
       required: 'Please input messages'
