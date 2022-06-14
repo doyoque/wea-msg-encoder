@@ -72,7 +72,7 @@ const messageEncode = (formData) => {
 }
 
 const generateUrl = (formData) => {
-  return `https://wa.me/${removeDash(formData)}?text=${messageEncode(formData)}`
+  return `https://api.whatsapp.com/send?phone=${removeDash(formData)}&text=${messageEncode(formData)}`
 }
 
 formData,
