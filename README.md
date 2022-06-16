@@ -39,4 +39,18 @@ Locally preview production build:
 npm run preview
 ```
 
+## Dockerize (must have docker installed)
+
+Build docker image:
+
+```bash
+npm run docker-build
+```
+
+Run docker container:
+
+```bash
+npm run docker-run
+```
+
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
